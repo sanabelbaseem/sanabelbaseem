@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SanabeBaseem</title>
+</head>
+
+<h1>   Sanabel Baseem Sultan</h1>
+
+<p><q><i>To be or not to be </i></q> <br><br>
+
+<b>At beiginig</b> my name is <b>Sanabel</b> ,I'm 19 years old and i study the <i><b>Computer Science</b></i> at <b><i>Al-Najah Univercity.</i></b><br>
+I'm interested for book,I have a big library at my home,I have a distinguished collection of quotes that he extracted from books, novels and plays that I have read at this moment, and the quote at the beginning of the paragraph is one of my favorite quotes,Previously, I worked in library. Now I work in another Business.<br>
+I have a facebook account . this is URL:<a href="https://www.facebook.com/sanabel.baseem.92">my facebook account</a>
+<br>
+This is my picture:
+</p>
+
+<link rel="sanabel" href=" https://sanabelbaseem.github.io/sanabelbaseem/mmm.html ">
+<div class="div1">And This is my profile picture as yo can see:</div>
+<div class="div2"><img src=" C:\Users\remon\Desktop\bbkhs.jpg" alt="profile pic"></div><br>
+
+
+ <h2>A list of my education background </h2>
+<ul>
+
+  <li>I completed the artificial intelligence course</li>
+  <li>I speak in English</li>
+  <li>She won the first place in the Reading Challenge competition</li>
+</ul>
+<h3>A list of my work experiences</h3>
+<ol>
+  <li>At last, I worked at library</li>
+  <li>Now, I work at clothes store, I have online store</li>
+  <li>In future, I will work at Office work</li>
+</ol>
+<style>
+
+div{float:left;
+padding:300;
+}
+.div1 {
+color:white;
+  background: white;
+}
+
+
+.div2 {
+ <img src="C:\Users\remon\Desktop\bbb.jpg " alt="profile pic">
+
+}
+
+img
+{ 
+width:100px;
+height:auto;
+float:center;
+}
+
+a:link {
+  color: green;
+  background-color: gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color:white;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+   text-decoration: underline;
+}
+
+h1{
+color:rgb(156, 191, 183);
+border:2px solid blue;
+text-align:center;
+font-size:8.4vw;
+}
+h2{
+color:Tomato;
+text-size:7vw;
+text-align:center;
+}
+h3{
+text-align:center;
+color:blue;
+text-size:7vw;
+}
+ul {
+  list-style-type: circle;
+  
+
+} 
+li {
+
+ text-align:center;
+  float: under;
+}
+ol{
+tybe:1;
+
+}
+li{
+text-align:center;
+float:under;
+
+}
+p
+{
+background-color:rgb(156, 191, 183);
+text-align:center;
+font-family: courier;
+}
+
+
+</body>
+</html>
