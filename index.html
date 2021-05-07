@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Index Html</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<script>
+function validateForm() {
+var o=new Date();
+document.getElementById("date").innerHTML = o;
+  var x = document.forms["myForm"]["fname"].value;
+ var y = document.forms["myForm"]["lname"].value;
+ var z = document.forms["myForm"]["Pweb"].value;
+ var p = document.forms["myForm"]["phone"].value;
+  var e = document.forms["myForm"]["email"].value;
+var u = document.forms["myForm"]["usn"].value;
+  var s = document.forms["myForm"]["pass"].value;
+  var d = document.forms["myForm"]["deg"].value;
+  var a = document.forms["myForm"]["date"].value;
+ var i = document.forms["myForm"]["file"].value;
+  if (x== ""||y==""||z==""||p==""||e==""||u==""||s==""||d==""||a==""||i=="") {
+    alert("you must be filled out");
+    return false;
+  }
+} 
+function reset() {
+document.getElementById("9").reset();
+}
+$(document).ready(function(){
+  $("input").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightgray");
+    },  
+   
+     mouseleave: function(){
+      $(this).css("background-color", "white");
+      $(this).css("border-color", "")
+    }, 
+  });
+});
+function save()
+{
+var x=document.forms["myForm"]["email"].value;
+var pos = x.indexOf('@');
+var pos = x.slice(0,pos);
+
+alert("The application of"+" "+pos+" "+"is saved!");
+}
+
+</script>
+
+<body>
+<h2>Internship Application</h2>
+<p> please fill out the form below and hit submit tobe considered for the internship</p>
+
+  <fieldset>
+<legend> personal:</legend>
+<form id="9" name="myForm" method="post">
+
+  <label for="fname">First name:</label>
+  <input  type="text" id="fname" name="fname"  required class=" w3-hover-border-green"  ><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname"  name="lname" required class=" w3-hover-border-green"  ><br>
+    <label for="Pweb">Perconal website:</label>
+  <input type="url" id="Pweb"  name="Pweb"required  class=" w3-hover-border-green"   ><br>
+    <label for="phone">Enter a phone number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+  
+    <label for="email">Enter your email:</label>
+  <input type="email" id="email"  name="email" required class=" w3-hover-border-green"  ><br>
+    <label for="usn">Username:</label>
+  <input type="text" id="usn" name="usn"required  class=" w3-hover-border-green" ><br>
+  <label for="pass">Password:</label>
+  <input type="password" id="pass"  name="pass" required class=" w3-hover-border-green" ><br>
+  </fieldset>
+  <fieldset>
+<legend> Education:</legend><br>
+<label for="deg">Degree:</label>
+  <select type="text" 
+   id="deg" name="deg">
+    <option value="Associate">Associate</option>
+    <option value=" Bachelor"> Bachelor</option>
+    <option value="Masters">Masters</option>
+    <option value="Ph ">Ph </option>
+        <option value="h ">Doctor </option>
+
+  </select> <br>
+  <label for="date">When will you graduate:</label>
+  <input type="date" id="date" name="date"  class=" w3-hover-border-green" ><br>
+  <label for="file">Upload your CV file:</label>
+  <input type="file"  id="file"  name="file" multiplt class=" w3-hover-border-green" ><br>
+   </fieldset>
+     <section align="center" >
+  <input type="submit" value="Submit" onclick="validateForm()">
+<button id="sa"onclick=" reset()" >Reset  </button>
+<button id="r" onclick="save()">save  </button>
+
+</section>
+ </form>
+ <a href="https://sanabelbaseem.github.io/sanabelbaseem/Sca.html">My page!</a>
+
+</body>
+</html>
